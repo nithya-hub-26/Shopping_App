@@ -21,6 +21,12 @@ This project is a client-server application that manages user authentication and
   - *UDP*: Employed for broadcasting messages to all clients about the discount for products more than 1000 price.
 - *Client Data Isolation*: Each client has a separate CSV file to store their product data, ensuring data isolation and ease of access.
 
+## *How to Build and Run*
+
+1. Download shopping server and client as separate projects.
+2. Run shopping server first it ensure the server runs properly with tcp and udp in separate ports.
+3. Then run the client project which has client file.
+4. I have added one client, like this multiple clients can connect at a time since it supports multithreading.
 
 ### *Usage*
 
