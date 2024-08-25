@@ -1,0 +1,12 @@
+Product_ID,Category,Product_Name,Price,Quantity
+1,Fruits,Apple,200,5
+2,Fruits,Orange,299.99,2
+3,Vegetables,Carrot,199.99,3
+4,Snacks,Chips,40,2
+5,Gents,Pants,1499.99,1
+6,Gents,Shirts,399.99,4
+7,Gents,Belt,199.99,2
+8,Ladies,Skirts,550,6
+9,Ladies,Saree,1500,4
+10,Gents,Glasses,150,8
+11,Ladies,Watch,1400,7
