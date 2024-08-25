@@ -10,11 +10,11 @@ This project is a client-server application that manages user authentication and
 - *Product Management*: Clients can add products to their inventory, and this data is persistently stored in CSV files.
 - *Design Patterns*: 
   - *Factory Pattern*: Used for creating objects without specifying the exact class.
-  - *Singleton Pattern*: Ensures that only one instance of certain classes (like logging or server) exists throughout the application.
-  - *Command Pattern*: Encapsulates requests as objects, allowing for parameterization and queuing of requests.
-  - *Bridge Pattern*: Decouples an abstraction from its implementation, enabling them to vary independently.
-  - *Prototype Pattern*: Creates new objects by copying existing ones, improving efficiency in object creation.
-  - *Decorator Pattern*: Allows behavior to be added to individual objects, dynamically extending functionality without modifying the original code.
+  - *Singleton Pattern*: Ensures that only one instance of shopping server exists throughout the application.
+  - *Command Pattern*: Encapsulates requests as objects, allowing for parameterization and queuing of requests from client.
+  - *Bridge Pattern*: Decouples an abstraction from its implementation, enabling them to vary independently. Used in payment where card & upi implementation is hidden.
+  - *Prototype Pattern*: Creates new objects by copying existing ones, improving efficiency in object creation. Used when clonning the product to client's cart. 
+  - *Decorator Pattern*: Allows behavior to be added to individual objects, dynamically extending functionality without modifying the original code. Used in discounting a product before purchase.
 - *Logging*: Logs all significant events, such as client connections, registrations, and errors, to a log file for easy debugging and monitoring.
 - *Communication Protocols*: 
   - *TCP*: Used for reliable client-server communication.
